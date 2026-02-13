@@ -1,0 +1,33 @@
+Scénario : Prise de rendez-vous dans le cabinet médical
+
+Le patient appelle le cabinet
+
+Le patient téléphone au cabinet pour prendre un rendez-vous avec le médecin.
+
+La secrétaire répond
+
+La secrétaire décroche le téléphone et demande le nom du patient.
+
+Elle vérifie si le patient est déjà dans la base de données.
+
+Si le patient n’existe pas : elle ajoute ses informations (nom, prénom, date de naissance, téléphone).
+
+Si le patient existe déjà : elle passe directement à l’étape suivante.
+
+La secrétaire propose une date de rendez-vous
+
+Elle consulte l’application et les créneaux disponibles.
+
+Elle saisit la date et l’heure du rendez-vous dans l’application.
+
+Validation du rendez-vous
+
+Le rendez-vous est enregistré dans la base de données.
+
+Le patient reçoit la confirmation (par téléphone ou éventuellement email si prévu).
+
+Suivi
+
+La secrétaire peut consulter la liste des rendez-vous et les patients.
+
+Elle peut modifier ou supprimer un rendez-vous si nécessaire.
